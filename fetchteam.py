@@ -22,7 +22,6 @@ def main():
             print(game)
         
 
-
 # __main__
 if __name__ == "__main__":
     main()

@@ -29,8 +29,7 @@ def main():
 
     # isolate and print: home and away game scores | win probabilities for each team | game outcome
     while not successfulInput:      # infinite loop to allow for multiple attempts
-        user_input = input("Which team's results would you like? ").upper()
-        team = user_input
+        team = input("Which team's results would you like? ").upper()
         
         # check whether input matches list of teams
         if team in teams:    
